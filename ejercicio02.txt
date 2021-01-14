@@ -1,0 +1,43 @@
+1.  Inicio
+2.  funcion principal()
+3.      opcion, [i-0]
+4.      Escribir ¨Ingrese una de las dos opciones: \n¨
+5.      Escribir ¨Ingrese 1 para escribir la marca del auto y año de fabricación: \n
+6.                Ingrese 2 para escribir tipo de motor y número de asientos: \n
+7.      leer opcion
+8.       Si (opcion = 1) entonces
+9.            informacionCarro()
+10.      De lo contrario
+11.         Si (opcion = 2) entonces
+12.             informacionMoto()
+13.         De lo contrario
+14.               Escribir ¨Error, intete colocar los numero presentados¨ 
+15.         Fin Si
+16.      Fin Si
+12.      escribir "cadenaF"
+13.      escribir "cadenaf1" 
+17.  fin funcion principal 
+18.  funcion informacionCarro()
+19.      marca, x(100) {(0-100), (A-Z), (a-z)}
+20.      año, [i-0]
+21.     cadenaF, x(20)[{a-z}, {BS}]
+22.      Escribir ¨Ingrese la marca del carro: ¨
+23.      leer marca
+24.      Escribir ¨Ingrese el año de fabricacion del carro: ¨
+25.      leer año
+26.      cadena <-- (¨Auto de marca " + "marca con año de fabricación ¨ + año) 
+27.    return cadena 
+28.  fin funcion nformacionCarro()
+
+29.  funcion informacionMoto()
+30.      motot, x(100) {(0-100), (A-Z), (a-z)}
+31.      asientos, [i-0]
+32.     cadenaF1, x(100) {(0-100), (A-Z), (a-z)}
+33.      Escribir ¨Ingrese el tipo de motor de la moto: ¨
+34.      leer motor
+35.      Escribir ¨Ingrese el numero de asientos que tiene la moto: ¨
+36.      leer asientos
+37.      cadena <-- (¨Moto con motor a "+ motor "y" + asientos "asientos¨) 
+38.    return cadena
+39.  fin funcion informacionMoto()
+40.Fin
